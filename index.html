@@ -79,7 +79,7 @@
         alt="Shark" />
     -->
 
-    <!-- third work on images plus responsive design-->
+    <!-- third work on images plus responsive design
     <div class="container">
         <img src="images/shark-400.jpg" 
             srcset="images/shark-400.jpg 400w,
@@ -94,6 +94,22 @@
             <button>Learn More</button>
         </div>
     </div>
+    -->
+
+    <!-- fourth work on images plus art direction -->
+
+    <picture>
+        <source media="(min-width: 500px)" 
+                srcset="images/shark-large-1x.jpg 800w,
+                        images/shark-large-2x.jpg 1600w,
+                        images/shark-large-3x.jpg 2400w" />
+
+        <source srcset="images/shark-portrait-1x.jpg 400w,
+                        images/shark-portrait-2x.jpg 800w,
+                        images/shark-portrait-3x.jpg 1200w" />
+
+        <img src="images/shark-400.jpg" alt="Shark" />
+    </picture>
 
 <script src="scripts/main.js"></script>
     

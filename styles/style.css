@@ -38,3 +38,14 @@ img {
 img {
     width: 100%;
 }
+
+/* third work on images plus responsive design */
+
+@media (min-width: 650px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
